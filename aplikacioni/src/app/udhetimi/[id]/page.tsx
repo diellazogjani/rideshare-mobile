@@ -50,7 +50,7 @@ export default function DetajetUdhetimit({ params }: Props) {
 
     {
         udhetimi.vende > 0 ? (
-            <Link href= {`/kerkesa?id=${udhetimi.id}`}>
+            <Link href= {`/udhetimi/${udhetimi.id}/kerkesa`}>
                 Kërko vend
                     </Link>
       ) : (
