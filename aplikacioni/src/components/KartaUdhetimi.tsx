@@ -12,10 +12,10 @@ export default function KartaUdhetimi({ udhetimi }: Props) {
         { udhetimi.nisja } → { udhetimi.destinacioni }
     </h2>
 
-        < p > Shoferi: { udhetimi.shoferi } </p>
-            < p > Data: { udhetimi.data } </p>
+        
                 < p > Ora: { udhetimi.ora } </p>
                     < p > Vende të lira: { udhetimi.vende } </p>
+                     < p > Vendtakimi: { udhetimi.vendtakimi } </p>
 
                         < Link href = {`/udhetimi/${udhetimi.id}`
 }>
