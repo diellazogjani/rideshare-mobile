@@ -1,8 +1,8 @@
 import Link from "next/link"
-import { Udhetimi } from "../lib/udhetimet"
+import { Udhetim } from "../lib/udhetimet";
 
 type Props = {
-    udhetimi: Udhetimi
+    udhetimi: Udhetim;
 }
 
 export default function KartaUdhetimi({ udhetimi }: Props) {
