@@ -1,30 +1,20 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 type Props = {
-    params: Promise<{
-        id: string;
-    }>;
+  params: Promise<{ id: string }>;
 };
 
 export default async function Kerkesa({ params }: Props) {
-    const { id } = await params;
+  const { id } = await params;
 
-    return (
-        <main>
-        <Link href= {`/udhetimi/${id}`
-}>
-        ← Kthehu te detajet
-    </Link>
-
-    < h1 > Kërkesa për vend </h1>
-
-        < p > Simulim: Në pritje </p>
-
-            < p > Kërkesa është simuluar me sukses.</p>
-
-                < Link href = "/" >
-                    Kthehu te lista
-                        </Link>
-                        </main>
+  return (
+    <main>
+      <h1>Kerkesa per vend</h1>
+      <p>Simulim: Ne pritje</p>
+      <p>Kerkesa eshte simuluar me sukses.</p>
+      <Link href={"/udhetimi/" + id}>Kthehu te detajet</Link>
+      <p><Link href="/">Kthehu te lista</Link></p>
+    </main>
   );
 }
+
