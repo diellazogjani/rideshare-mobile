@@ -41,12 +41,11 @@ Parashikimi im para klikimit: Mendova se vendtakimi i konfirmuar do te mbetej "B
 Cfare pashe realisht: Vendtakimi i konfirmuar mbeti "Biblioteka", edhe pse ne fushe shkruhej "Parkingu".
 Skedari dhe funksioni qe e shpjegojne: Vendtakimi.tsx, funksioni konfirmoVendtakimin().
 Cfare kuptova ose korrigjova: Kuptova se vendtakimi ndryshon vetem kur klikohet butoni i konfirmimit.
-
 Kete pjese e shpjegoj ne klase. Kontrolli automatik nuk verifikon vertetesine e proves] Zgjidh me kolegun njërën: tekst me vetëm hapësira ose ndryshim vendtakimi pa konfirmim.
-- Hyrja që provova:
-- Parashikimi im para klikimit:
-- Çfarë pashë realisht:
-- Skedari dhe funksioni që e shpjegojnë:
-- Çfarë kuptova ose korrigjova:
+- Hyrja që provova:Bashke me kolegun shkrova "Parkingu" pasi e kishim konfirmuar "Biblioteka", por nuk klikuam butonin e konfirmimit.
+- Parashikimi im para klikimit: Mendova se vendtakimi i konfirmuar do te mbetej "Biblioteka".
+- Çfarë pashë realisht:  Vendtakimi i konfirmuar mbeti "Biblioteka", edhe pse ne fushe shkruhej "Parkingu".
+- Skedari dhe funksioni që e shpjegojnë: Vendtakimi.tsx, funksioni konfirmoVendtakimin().
+- Çfarë kuptova ose korrigjova: Kuptova se vendtakimi ndryshon vetem kur klikohet butoni i konfirmimit.
 
 Këtë pjesë e shpjegoj në klasë. Kontrolli automatik nuk verifikon vërtetësinë e provës.
